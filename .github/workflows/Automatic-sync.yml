@@ -13,6 +13,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          ref: master   # ⭐ 明确操作 master
 
       - name: Set up Git
         run: |
